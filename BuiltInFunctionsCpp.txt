@@ -19,3 +19,8 @@ sort(s.rbegin(), s.rend()); => sort from bigger to smaller
 sort(s.begin(), s.end()); => sort from smaller to bigger
 
 sort (array, array + size); => sort the array
+
+getline(cin , string name); => cin full string with spaces
+
+cin.ignore(1,'\n'); >= to do 2 or more getlines
+
