@@ -1,0 +1,17 @@
+set is a container that contain uniqe letter or number etc and it doesnt reapet any
+
+numbers or charchters and it sorting it from small to big but it has important syntax
+
+that you have to know like :
+
+how to definition it : set< "data type"> "name of the set";
+
+how to insert it : st.insert("the number or letter that you want to add");
+
+how to use it in for loop : for(auto i = st.begin(); i != st.end(); i++){
+        			cout << *i << ' ';
+    			    }
+
+set is the solution for some questions and it saves the time of the code and you can 
+
+make it int or ll or char like the simple variable .
