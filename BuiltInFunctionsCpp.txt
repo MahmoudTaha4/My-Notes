@@ -14,6 +14,8 @@ tolower(char) => returns char in lower case
 
 reverse(s2.begin(), s2.end());  => reverses any container
 
+abs(int - int) => not giving minus variable
+
 sort(s.rbegin(), s.rend()); => sort from bigger to smaller
 
 sort(s.begin(), s.end()); => sort from smaller to bigger
@@ -21,6 +23,9 @@ sort(s.begin(), s.end()); => sort from smaller to bigger
 sort (array, array + size); => sort the array
 
 getline(cin , string name); => cin full string with spaces
+
+cout << s.substr(0, 100);output(hmed T) -> substr(start index, num of chars that you want to include).
+cout << s.substr(1); output (hmed Taha) -> if there is one number it starts from this index till the end
 
 cin.ignore(1,'\n'); >= to do 2 or more getlines
 
