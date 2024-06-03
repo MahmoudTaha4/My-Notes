@@ -29,3 +29,6 @@ cout << s.substr(1); output (hmed Taha) -> if there is one number it starts from
 
 cin.ignore(1,'\n'); >= to do 2 or more getlines
 
+fmod(11.5,2) >= to do mod for float .. that returns 1,5 
+
+pow(2,5) >= to do power.. that returns 32
