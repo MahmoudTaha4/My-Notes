@@ -1,0 +1,27 @@
+the map is very useful in cpp and in stls
+
+map contians key value & mapped value
+
+..how can we declare map?
+
+to declare map :
+
+map <ll = "key value",ll = "mapped value"> mp = "name of map"
+
+-----------------------------------
+
+.. how can we get the key value & mapped value from map?
+
+to get the mapped value:
+1 - for(int i = 0; i < 3; i++){
+	cout << map[i] .. that will cout the mapped value.
+}
+2 - for(auto i : map){
+	cout << i.second .. that will cout the mapped value too.
+}
+
+-----------------------------------
+to get the key value :
+for(auto i : map){
+	cout << i.first .. that will cout the key value.
+}
